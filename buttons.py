@@ -1,5 +1,5 @@
 # buttons.py
-# wait fro button press on VoiceHAT
+# wait for button press on VoiceHAT
 
 from gpiozero import Button
 
