@@ -1,3 +1,6 @@
+# servos.py
+# use servos attached to pins on VoiceHAT
+
 from gpiozero import Servo,AngularServo
 import time
 
