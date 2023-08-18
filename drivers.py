@@ -1,3 +1,6 @@
+# drivers.py 
+# use motors attached to the drivers pins on voiceHAT
+
 from gpiozero import PWMOutputDevice
 import time
 
