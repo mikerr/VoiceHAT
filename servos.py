@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # servos.py
 # use servos attached to pins on VoiceHAT
 
