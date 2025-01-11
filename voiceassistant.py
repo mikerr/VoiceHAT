@@ -5,7 +5,9 @@
 # "whats the time", "tell me the time"
 # "whats the date"
 
-# pip3 install vosk
+# requirements: 
+# pip3 install vosk sounddevice
+# sudo apt-get install libportaudio2 espeak 
 
 import sounddevice, queue
 import json, subprocess, datetime
