@@ -14,6 +14,9 @@ Install the overlay & reboot
 
     echo "dtoverlay=googlevoicehat-soundcard" | sudo tee -a /boot/firmware/config.txt
 
+Set defaults for asound (cat /proc/asound/cards to check card number, usually hdmi is 0, google aiy is card 1)
+
+     sudo cp asound.conf /etc/asound.conf
 
 Install demo requirements
 
